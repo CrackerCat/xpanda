@@ -1,0 +1,12 @@
+package jmp0.abc.disasm.types;
+
+import lombok.Getter;
+
+@Getter
+public enum PandaOPCodeFormat {
+/*replace padding*/
+    private final int paramSize;
+    PandaOPCodeFormat(int paramSize){
+        this.paramSize = paramSize;
+    }
+}
