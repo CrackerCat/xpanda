@@ -4,11 +4,12 @@
 <br>下面是我想的，可以做的一些事:
 
 ## something can do:
-1. 想进一步增强结构化分析,输出更准确的结果。
-2. 基于[babel-compiler](https://github.com/facebook/react/tree/main/compiler)的[xpanda-optimizer](https://github.com/asmjmp0/xpanda-optimizer)，作为代码优化器，获得更快更好的优化效果。
-3. 一个勉强够用的ui。
-4. 通过asm库静态修改字节码，可以修改回编译，以便做安全研究。
-5. 是否能支持其他js-base虚拟机字节码？做到反编译的。
+1. 完善测试用例，保证反编译器质量。
+2. 想进一步增强结构化分析,输出更准确的结果。
+3. 基于[babel-compiler](https://github.com/facebook/react/tree/main/compiler)的[xpanda-optimizer](https://github.com/asmjmp0/xpanda-optimizer)，作为代码优化器，获得更快更好的优化效果。
+4. 一个勉强够用的ui。
+5. 通过asm库静态修改字节码，可以修改回编译，以便做安全研究。
+6. 是否能支持其他js-base虚拟机字节码？做到反编译的。
 
 ## Thanks
 [Coober-Ding](https://github.com/Coober-Ding)是一个不错的全栈工程师，感谢他在[api](api)的编写中做的贡献。email:287135737@qq.com
